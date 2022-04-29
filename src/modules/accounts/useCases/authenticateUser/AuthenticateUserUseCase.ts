@@ -12,7 +12,7 @@ interface IRequest {
 
 interface IResponse {
   user: {
-    name: string,
+    name: string, 
     email: string
   },
   token: string
