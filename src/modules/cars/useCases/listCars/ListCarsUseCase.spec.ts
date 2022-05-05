@@ -20,11 +20,11 @@ describe("List Cars", () => {
       "license_plate": "DEF-1212",
       "fine_amount": 180,
       "brand": "Car brand",
-      "category_id": "Category ID"
+      "category_id": "category_id"
     })
 
-    const cars = await listCarsUseCase.execute();
-    
+    const cars = await listCarsUseCase.execute({});
+
     expect(cars).toEqual([car]);
   })
 })
