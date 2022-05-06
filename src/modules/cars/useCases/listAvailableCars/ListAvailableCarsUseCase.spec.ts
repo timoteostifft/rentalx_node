@@ -45,7 +45,6 @@ describe("List Cars", () => {
     });
 
     expect(cars).toEqual([car]);
-    console.log(cars);
   });
 
   it("Should be able to list all available cars by name", async () => {
@@ -65,7 +64,6 @@ describe("List Cars", () => {
     });
 
     expect(cars).toEqual([car]);
-    console.log(cars);
   });
 
   it("Should be able to list all available cars by category", async () => {
@@ -85,6 +83,5 @@ describe("List Cars", () => {
     });
 
     expect(cars).toEqual([car]);
-    console.log(cars);
   });
 })
